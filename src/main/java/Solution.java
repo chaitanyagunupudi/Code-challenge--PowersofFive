@@ -23,8 +23,9 @@ public class Solution {
     		k=find(s[i]);
     		result[i]=k;
     	}
-    	
+    	System.out.println("Result is "+result);
 		return result;
+		
     }
 
    private int find(String s) {
@@ -97,4 +98,3 @@ public class Solution {
 
 
 
-}
